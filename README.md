@@ -12,5 +12,5 @@ in the user's area.
 ## Screenshots
 
 
-<img src="./src/main/res/drawable/sc1.jpg">
+<img src="src/main/res/drawable/sc1.jpg">
 
