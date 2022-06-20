@@ -18,7 +18,9 @@ in the user's area.
   
 <img height="400" alt="sc5" src="https://user-images.githubusercontent.com/78055596/174661080-d37d1c0f-3c77-4ac7-a34a-a5ab5e969d2d.jpg">
   
-  <img height="400" alt="sc5" src="https://user-images.githubusercontent.com/78055596/174661271-5dc58d88-6a2a-44a4-88e9-290a1f6817fa.jpg">
+  <img height="400" alt="sc6" src="https://user-images.githubusercontent.com/78055596/174661271-5dc58d88-6a2a-44a4-88e9-290a1f6817fa.jpg">
+  
+  <img height="400" alt="sc7" src="https://user-images.githubusercontent.com/78055596/174661400-7ae694c8-b9b6-468b-982b-791cea5e49e5.jpg">
   
   </p>
 
