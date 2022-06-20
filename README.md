@@ -12,5 +12,5 @@ in the user's area.
 ## Screenshots
 
 
-<img src="app/src/main/res/drawable/sc1.jpg"
+<img src="app/src/main/res/drawable/sc1.jpg" width=400 height=300>
 
