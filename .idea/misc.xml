@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_add_medication.xml" value="0.33" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_calendar.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_health_tips.xml" value="0.33" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_med_management.xml" value="0.25" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_my_medication.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_my_reminders.xml" value="0.33" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_set_reminders.xml" value="0.25" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/activity_update.xml" value="0.33" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/my_meds_row.xml" value="0.25" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/layout/my_row.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/estag/AndroidStudioProjects/MyNextLevel/app/src/main/res/menu/menu.xml" value="0.3569230769230769" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

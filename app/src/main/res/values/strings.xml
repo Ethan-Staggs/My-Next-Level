@@ -1,0 +1,38 @@
+<resources>
+
+    <!--Main activity -->
+    <string name="app_name">My Next Level</string>
+    <string name="my_medication_text">My Medication</string>
+    <string name="other_resources_text">Other Resources</string>
+    <string name="my_doctor_text">Find Doctor</string>
+    <string name="my_reminders_text">My Reminders</string>
+    <string name="medication_tips_text">Medication Tips</string>
+    <string name="set_reminder_text">Set a Reminder</string>
+
+    <!--Add medication activity -->
+    <string name="medication_text">Medication</string>
+    <string name="medication_mg_text">Medication MG</string>
+    <string name="schedule_text">Schedule</string>
+    <string name="add_medication_button_text">Add Medication</string>
+
+    <!--Health tips activity -->
+    <string name="medication_management2">Medication Management</string>
+    <string name="medication_management_and_safety_tips">Medication Management and Safety Tips</string>
+    <string name="point1">1. Know what your medications are, why you are taking them, and the side effects</string>
+    <string name="point2">2. Review your medications with your doctor regularly</string>
+    <string name="point3">3. Use a pillbox to organize your medication</string>
+    <string name="point4">4. Use one pharmacy to refill your prescriptions</string>
+    <string name="point5">5. Make sure medication instructions are clear</string>
+    <string name="point6">6. Set up a medication reminder and tracking system</string>
+    <string name="point7">7. Plan ahead for medication refills</string>
+    <string name="videotext">
+        <a href="https://youtu.be/TTc5Wm8dWww">Short video on Medication Adherence</a></string>
+    <string name="add_event_button_text">Add Reminder</string>
+    <string name="medication_text_2">Medication</string>
+    <string name="mg_text_2">MG</string>
+    <string name="schedule_text_2">Schedule</string>
+    <string name="add_medication_button_text_2">Update Medication</string>
+    <string name="sign_out_menu_item">Sign Out</string>
+
+
+</resources>

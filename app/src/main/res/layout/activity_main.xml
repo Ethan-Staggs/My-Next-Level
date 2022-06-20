@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halfcircle"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Facebook"
+        android:layout_width="26dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onFaceBookClick"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintEnd_toStartOf="@+id/Instagram"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Instagram"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fb"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/Instagram"
+        android:layout_width="26dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:onClick="onInstagramClick"
+        app:layout_constraintBottom_toBottomOf="@+id/Twitter"
+        app:layout_constraintEnd_toStartOf="@+id/Twitter"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Twitter"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/Twitter"
+        android:layout_width="26dp"
+        android:layout_height="34dp"
+        android:onClick="onTwitterClick"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/twt22" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="238dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144"
+        app:srcCompat="@drawable/mynextlvldrawingcashmere" />
+
+
+    <TextView
+        android:id="@+id/mymeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMyMedicationClick"
+        android:text="@string/my_medication_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/medManagementImg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/medManagementImg"
+        app:layout_constraintTop_toBottomOf="@+id/medManagementImg"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/otherResources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:onClick="onOtherResourcesClick"
+        android:text="@string/other_resources_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/OtherResources"
+        app:layout_constraintTop_toBottomOf="@+id/OtherResources" />
+
+    <ImageView
+        android:id="@+id/Doctor"
+        android:layout_width="97dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="onMyDrClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medManagementImg"
+        app:srcCompat="@drawable/localhealthcare" />
+
+    <TextView
+        android:id="@+id/myDr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMyDrClick"
+        android:text="@string/my_doctor_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/Doctor"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="@+id/Doctor"
+        app:layout_constraintTop_toBottomOf="@+id/Doctor"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <ImageView
+        android:id="@+id/setReminder"
+        android:layout_width="97dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="268dp"
+        android:onClick="onSetReminderClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reminder" />
+
+    <TextView
+        android:id="@+id/reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:onClick="onSetReminderClick"
+        android:paddingLeft="12dp"
+        android:shadowColor="#2196F3"
+        android:text="@string/set_reminder_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/setReminder"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setReminder" />
+
+    <ImageView
+        android:id="@+id/imgHealthInfo"
+        android:layout_width="97dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="35dp"
+        android:clickable="true"
+        android:onClick="onHealthInfoClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/reminder"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/healthinfo" />
+
+    <TextView
+        android:id="@+id/healthInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onHealthInfoClick"
+        android:text="@string/medication_tips_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgHealthInfo"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/imgHealthInfo"
+        app:layout_constraintTop_toBottomOf="@+id/imgHealthInfo"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageView
+        android:id="@+id/remindersImg"
+        android:layout_width="97dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="35dp"
+        android:onClick="onMyRemindersClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHealthInfo"
+        app:srcCompat="@drawable/reminderlist" />
+
+    <TextView
+        android:id="@+id/myReminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMyRemindersClick"
+        android:text="@string/my_reminders_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/remindersImg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/remindersImg"
+        app:layout_constraintTop_toBottomOf="@+id/remindersImg"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="297dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <ImageView
+        android:id="@+id/medManagementImg"
+        android:layout_width="97dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="48dp"
+        android:clickable="true"
+        android:onClick="onMyMedicationClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OtherResources"
+        app:srcCompat="@drawable/medmanagement"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/OtherResources"
+        android:layout_width="97dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="48dp"
+        android:clickable="true"
+        android:onClick="onOtherResourcesClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/otherresources" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

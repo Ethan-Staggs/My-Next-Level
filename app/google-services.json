@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "246457359638",
+    "project_id": "my-next-level-4d727",
+    "storage_bucket": "my-next-level-4d727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246457359638:android:62562f30cb811e28dc0437",
+        "android_client_info": {
+          "package_name": "com.hfad.mynextlevel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246457359638-947nsb51aaradshks9okv596ql7ekprg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUuNPGSG0QBeX7EfmcmhDUyGnmDkts-oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246457359638-947nsb51aaradshks9okv596ql7ekprg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
