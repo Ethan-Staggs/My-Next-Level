@@ -11,7 +11,7 @@ in the user's area.
 
 ## Screenshots
 
-<img height"400" src"![sc1](https://user-images.githubusercontent.com/78055596/174659985-8e6ad554-c991-4bf6-9b48-6987fbe3a8a7.jpg)>
+<img height"400" src"https://user-images.githubusercontent.com/78055596/174659985-8e6ad554-c991-4bf6-9b48-6987fbe3a8a7.jpg">
 
 <img src="src/main/res/drawable/sc1.jpg">
 
