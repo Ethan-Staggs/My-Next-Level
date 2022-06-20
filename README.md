@@ -11,5 +11,5 @@ in the user's area.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Ethan-Staggs/My-Next-Level/blob/master/app/src/main/res/drawable/sc1.jpg?raw=true)
+![App Screenshot](https://github.com/Ethan-Staggs/My-Next-Level/blob/master/app/src/main/res/drawable/sc1.jpg?raw=true=450x300)
 
