@@ -11,6 +11,6 @@ in the user's area.
 
 ## Screenshots
 
-![App Screenshot]
+
 <img src="app/src/main/res/drawable/sc1.jpg"
 
