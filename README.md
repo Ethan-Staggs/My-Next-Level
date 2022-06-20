@@ -10,10 +10,13 @@ in the user's area.
 
 
 ## Screenshots
+<p float="left">
 
 <img height="400" alt="sc1" src="https://user-images.githubusercontent.com/78055596/174659985-8e6ad554-c991-4bf6-9b48-6987fbe3a8a7.jpg">
 
 <img height="400" alt="sc4" src="https://user-images.githubusercontent.com/78055596/174660622-ce2a1254-4890-499c-8aa3-05a087258468.jpg">
+  
+  </p>
 
 
 
